@@ -161,9 +161,6 @@ def reload():
 
 
 
-# def location(loc):
-#     for i in loc:
-#         print(mart_map.get(i))
 
 
 # *************Variables**************
@@ -364,17 +361,5 @@ btn22.grid(row=0, column=0)
 btn23 = Button(frame2, text="Reload", width=10, height=5, command=reload)
 btn23.grid(row=0, column=1)
 
-# start = "a"
-# end = "i"
-
-# # **************main loop*******************
-# x.append(start)
-# looping(start)
-# minimum = dis.index(min(dis))
-# matching()
-# mini = total_dis.index(min(total_dis))
-# print(min(total_dis))
-# print(y[serial[mini]])
-# # *******************************************
 
 window.mainloop()
